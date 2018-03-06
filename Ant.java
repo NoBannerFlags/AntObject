@@ -1,3 +1,4 @@
 public interface Ant{
-    void eat();
+    public void eat();
+    public String sense();
 }
