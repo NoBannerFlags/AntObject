@@ -4,4 +4,6 @@ public interface Atta_C{
   public void cutGreens();
   //Have the ant clean the fungi
   public void cleanFungus();
+  //have ant carry cut greens to the nest.
+  public void carryGreens();
 }
