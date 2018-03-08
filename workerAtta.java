@@ -9,6 +9,11 @@ public class WorkerAtta{
   private boolean hungerSatisfied;
   private boolean isGrown;
   public void cutGreens(){
-    
+    //metabolism rate increases.
+    matabolism++;
+    //subtract metabolism from food.
+    foodLevel-=metabolism;
+    //age the ant up
+    antAge ++;
   }
 }
