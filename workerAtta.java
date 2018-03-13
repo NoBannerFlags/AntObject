@@ -8,6 +8,9 @@ public class WorkerAtta{
   private int antAge = 0;
   private boolean hungerSatisfied;
   private boolean isGrown;
+  /**
+  *Makes the ant dedicate 1 day to cutting greens
+  **/
   public void cutGreens(){
     //metabolism rate increases.
     matabolism++;
