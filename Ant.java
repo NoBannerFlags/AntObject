@@ -1,5 +1,3 @@
-package antProject;
-
 public interface Ant{
     public void eat(int foodType);
     /*Food types:
