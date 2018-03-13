@@ -1,5 +1,5 @@
 import java.util.*;
-public class WorkerAtta{
+public class WorkerAtta implements Atta_C{
   //amount of food the ant has. at 10 food, it becomes hungry, at 0 it dies.
   private int foodLevel;
   //the rate at which the ant's food reserves deteriorate, defaults to 1.
