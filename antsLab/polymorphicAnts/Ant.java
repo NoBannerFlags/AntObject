@@ -10,14 +10,14 @@ public interface Ant
 {
     
     /**
-     * Method eat  The ant eats <code>cal</code> Calories
+     * The ant eats <code>cal</code> Calories
      * @since 0.1
      * @param cal  The number of calories in the current piece of food 
      */
     public void eat(int cal);
     
     /**
-     * Method die  The ant dies, causes its value in the ArrayList to be removed
+     * The ant dies, causes its value in the ArrayList to be removed
      * @since 0.1
      */
     public void die();
