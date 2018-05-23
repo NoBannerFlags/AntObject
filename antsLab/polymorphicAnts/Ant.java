@@ -17,8 +17,9 @@ public interface Ant
     public void eat(int cal);
     
     /**
-     * The ant dies, causes its value in the ArrayList to be removed
+     * Calculates if the ant will die based on food loss
+     * 
      * @since 0.1
      */
-    public void die();
+    public boolean willDie();
 }

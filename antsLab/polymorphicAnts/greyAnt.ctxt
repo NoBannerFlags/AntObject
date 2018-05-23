@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=greyAnt
-comment0.text=\r\n\ Grey\ Ants\r\n\r\n\ \r\n\ @version\ 0.1\r\n\ @since\ v0.0.7\r\n
+comment0.target=GreyAnt
+comment0.text=\r\n\ Grey\ Ants\ are\ a\ type\ of\ <code>Ant</code>\ and\ all\ types\ of\ grey\ ant\ Implement\ <code>GreyAnt</code>\r\n\r\n\ \r\n\ @version\ 0.1\r\n\ @since\ v0.0.7\r\n
 comment1.params=days
 comment1.target=void\ hybernate(int)
-comment1.text=\r\n\ Sets\ ant\ status\ to\ "Hybernate"\ for\ <code>Days</code>\ game\ ticks\r\n\r\n\ @param\ days\ Num\ of\ days\ in\ an\ integer.\r\n
+comment1.text=\r\n\ Sets\ ant\ status\ to\ "Hybernate"\ for\ <code>Days</code>\ game\ ticks\r\n\r\n\ @param\ days\ Num\ of\ days\ in\ an\ integer.\r\n\ @since\ 0.1\r\n
 numComments=2

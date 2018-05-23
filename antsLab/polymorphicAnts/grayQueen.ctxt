@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=grayQueen
+comment0.text=\r\n\ Queen\ of\ Gray\ Ants\r\n\r\n\ \r\n\ @version\ (0.1)\r\n\ @since\ v0.0.7\r\n
+comment1.params=pos\ dCal
+comment1.target=grayQueen(int,\ int)
+comment1.text=\r\n\ grayQueen\ Constructor\r\n\r\n\ @param\ pos\ position\r\n\ @param\ dCal\ digested\ Calories,\ total\ number\ of\ calories\ usable.\r\n
+comment2.params=pos\ dCal\ calR
+comment2.target=grayQueen(int,\ int,\ int)
+comment2.text=\r\n\ grayQueen\ Constructor\r\n\r\n\ @param\ pos\ position\r\n\ @param\ dCal\ digested\ Calories,\ total\ number\ of\ calories\ usable.\r\n\ @param\ calR\ Calories\ required\ per\ day\r\n
+comment3.params=
+comment3.target=int\ getdCal()
+comment4.params=days
+comment4.target=void\ hybernate(int)
+comment5.params=
+comment5.target=boolean\ willDie()
+comment6.params=cal
+comment6.target=void\ eat(int)
+numComments=7
