@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=grayWorker
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ grayWorker\ here.\r\n\r\n\ \r\n\ @version\ (0.1)\r\n\ @since\ (0.0.8)\r\n
+comment1.params=dCal\ pos
+comment1.target=grayWorker(int,\ int)
+comment2.params=days
+comment2.target=void\ hybernate(int)
+comment3.params=cal
+comment3.target=void\ eat(int)
+comment4.params=
+comment4.target=boolean\ willDie()
+numComments=5

@@ -6,7 +6,7 @@ package polymorphicAnts;
  * Queen of Gray Ants
  *
  * 
- * @version (0.1)
+ * @version 0.2
  * @since v0.0.7
  */
 public class grayQueen implements GreyAnt
@@ -25,6 +25,7 @@ public class grayQueen implements GreyAnt
     //5=Dying (Able to save)
     //6=Mortaly wounded
     private int statTime = 0;
+    //statTime= time until stat wears off
     /**
      * grayQueen Constructor
      *
@@ -39,7 +40,7 @@ public class grayQueen implements GreyAnt
          * grayQueen Constructor
          *
          * @param pos position
-         * @param dCal digested Calories, total number of calories usable.
+         * @param dCal Digested Calories, total number of calories usable.
          * @param calR Calories required per day
          */
         public grayQueen(int pos, int dCal, int calR){
@@ -68,6 +69,8 @@ public class grayQueen implements GreyAnt
         }
         else if(dCal<calR){
             return true;
+        }else if(stat==6){
+            return true;
         }else{
             return false;
         }
@@ -75,5 +78,14 @@ public class grayQueen implements GreyAnt
     public void eat(int cal){
         dCal+=cal;
         dCal-=calR;
+    }
+    /**
+     * Method layEgg
+     *
+     * @param eggNum Number of eggs for the queen to lay
+     * @param eggPos Position of egg in colony
+     */
+    public void layEgg(int eggNum, int eggPos){
+        
     }
 }
