@@ -35,6 +35,39 @@ public class grayWorker implements GreyAnt{
             stat = 1;
         }
     }
+    /**
+     * Method findFood - the worker finds some food, <code>eat</code> as much as it can and gaining <code>dCal</code>. Any food over 2 is given to the colony.
+     *
+     * @param fNum Food number (ammount of food)
+     * @returns Amount of food given to colony
+     */
+    public int findFood(int fNum){
+        if(fNum>2){
+            eat(2);
+            fNum-=2;
+            return fNum;
+        }else{
+            
+            eat(fNum);
+            return 0;
+        }
+    }
+    /**
+     * Method giveFood - give food to a <code>Subject</code> if not enough food to give, give all and enter mortal wound state for 20 ticks.
+     *
+     * @param numb Amount of food to give to subject
+     * @return Amount of food actually given
+     */
+    public int giveFood(int numb){
+        if(dCal-numb<0){
+            this.stat = 6;
+            this.statTime = 20;
+            return dCal;
+            
+        }else{
+            return numb;
+        }
+    }
     public void eat(int cal){
         dCal+=cal;
         dCal-=calR;
