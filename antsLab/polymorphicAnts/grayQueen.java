@@ -6,7 +6,7 @@ package polymorphicAnts;
  * Queen of Gray Ants
  *
  * 
- * @version 0.2
+ * @version 0.3
  * @since v0.0.7
  */
 public class grayQueen implements GreyAnt
@@ -80,7 +80,7 @@ public class grayQueen implements GreyAnt
         dCal-=calR;
     }
     /**
-     * Method layEgg
+     * Method layEgg - NOT USED AT MOMENT!
      *
      * @param eggNum Number of eggs for the queen to lay
      * @param eggPos Position of egg in colony
