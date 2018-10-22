@@ -1,13 +1,14 @@
 #BlueJ class context
 comment0.target=grayWorker
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ grayWorker\ here.\r\n\r\n\ \r\n\ @version\ (0.1)\r\n\ @since\ (0.0.8)\r\n
+comment0.text=\r\n\ Worker\ for\ grey\ ants.\r\n\r\n\ \r\n\ @version\ (0.2)\r\n\ @since\ (0.0.8)\r\n
 comment1.params=dCal\ pos
 comment1.target=grayWorker(int,\ int)
+comment1.text=\r\n\ grayWorker\ Constructor\r\n\r\n\ @param\ dCal\ digest\ calories\r\n\ @param\ pos\ position\ in\ colony.\r\n
 comment2.params=days
 comment2.target=void\ hybernate(int)
 comment3.params=fNum
 comment3.target=int\ findFood(int)
-comment3.text=\r\n\ Method\ findFood\ -\ the\ worker\ finds\ some\ food,\ <code>eat</code>\ as\ much\ as\ it\ can\ and\ gaining\ <code>dCal</code>.\ Any\ food\ over\ 2\ is\ given\ to\ the\ colony.\r\n\r\n\ @param\ fNum\ Food\ number\ (ammount\ of\ food)\r\n\ @returns\ Amount\ of\ food\ given\ to\ colony\r\n
+comment3.text=\r\n\ Method\ findFood\ -\ the\ worker\ finds\ some\ food,\ <code>eat</code>\ as\ much\ as\ it\ can\ and\ gaining\ <code>dCal</code>.\ Any\ food\ over\ 2\ is\ given\ to\ the\ colony.\r\n\r\n\ \r\n\ @param\ fNum\ Food\ number\ (ammount\ of\ food)\r\n\ @returns\ Amount\ of\ food\ given\ to\ colony\r\n
 comment4.params=numb
 comment4.target=int\ giveFood(int)
 comment4.text=\r\n\ Method\ giveFood\ -\ give\ food\ to\ a\ <code>Subject</code>\ if\ not\ enough\ food\ to\ give,\ give\ all\ and\ enter\ mortal\ wound\ state\ for\ 20\ ticks.\r\n\r\n\ @param\ numb\ Amount\ of\ food\ to\ give\ to\ subject\r\n\ @return\ Amount\ of\ food\ actually\ given\r\n

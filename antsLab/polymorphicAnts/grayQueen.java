@@ -9,7 +9,7 @@ package polymorphicAnts;
  * @version 0.3
  * @since v0.0.7
  */
-public class grayQueen implements GreyAnt
+public class grayQueen implements GrayAnt
 {
     private boolean isAlive = true;
     private int pos;

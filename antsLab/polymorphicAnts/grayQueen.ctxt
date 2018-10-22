@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=grayQueen
-comment0.text=\r\n\ Queen\ of\ Gray\ Ants\r\n\r\n\ \r\n\ @version\ 0.2\r\n\ @since\ v0.0.7\r\n
+comment0.text=\r\n\ Queen\ of\ Gray\ Ants\r\n\r\n\ \r\n\ @version\ 0.3\r\n\ @since\ v0.0.7\r\n
 comment1.params=pos\ dCal
 comment1.target=grayQueen(int,\ int)
 comment1.text=\r\n\ grayQueen\ Constructor\r\n\r\n\ @param\ pos\ position\r\n\ @param\ dCal\ digested\ Calories,\ total\ number\ of\ calories\ usable.\r\n
@@ -17,5 +17,5 @@ comment6.params=cal
 comment6.target=void\ eat(int)
 comment7.params=eggNum\ eggPos
 comment7.target=void\ layEgg(int,\ int)
-comment7.text=\r\n\ Method\ layEgg\r\n\r\n\ @param\ eggNum\ Number\ of\ eggs\ for\ the\ queen\ to\ lay\r\n\ @param\ eggPos\ Position\ of\ egg\ in\ colony\r\n
+comment7.text=\r\n\ Method\ layEgg\ -\ NOT\ USED\ AT\ MOMENT\!\r\n\r\n\ @param\ eggNum\ Number\ of\ eggs\ for\ the\ queen\ to\ lay\r\n\ @param\ eggPos\ Position\ of\ egg\ in\ colony\r\n
 numComments=8

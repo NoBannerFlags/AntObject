@@ -2,13 +2,13 @@ package polymorphicAnts;
 
 
 /**
- * Write a description of class grayWorker here.
+ * Worker for grey ants.
  *
  * 
- * @version (0.1)
+ * @version (0.2)
  * @since (0.0.8)
  */
-public class grayWorker implements GreyAnt{
+public class grayWorker implements GrayAnt{
     
     private boolean isAlive = true;
     private int pos;
@@ -25,6 +25,12 @@ public class grayWorker implements GreyAnt{
     //6=Mortaly wounded
     private int statTime = 0;
     //statTime= time until stat wears off
+    /**
+     * grayWorker Constructor
+     *
+     * @param dCal digest calories
+     * @param pos position in colony.
+     */
     public grayWorker(int dCal, int pos){
         this.dCal=dCal;
         this.pos=pos;
@@ -38,6 +44,7 @@ public class grayWorker implements GreyAnt{
     /**
      * Method findFood - the worker finds some food, <code>eat</code> as much as it can and gaining <code>dCal</code>. Any food over 2 is given to the colony.
      *
+     * 
      * @param fNum Food number (ammount of food)
      * @returns Amount of food given to colony
      */

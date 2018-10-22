@@ -8,7 +8,7 @@ package polymorphicAnts;
  * @version 0.3
  * @since v0.0.7
  */
-public interface GreyAnt extends Ant{
+public interface GrayAnt extends Ant{
     /**
      * Sets ant status to "Hybernate" for <code>Days</code> game ticks
      *

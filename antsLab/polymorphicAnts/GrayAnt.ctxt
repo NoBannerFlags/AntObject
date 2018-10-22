@@ -1,5 +1,5 @@
 #BlueJ class context
-comment0.target=GreyAnt
+comment0.target=GrayAnt
 comment0.text=\r\n\ Grey\ Ants\ are\ a\ type\ of\ <code>Ant</code>\ and\ all\ types\ of\ grey\ ant\ Implement\ <code>GreyAnt</code>\r\n\r\n\ \r\n\ @version\ 0.3\r\n\ @since\ v0.0.7\r\n
 comment1.params=days
 comment1.target=void\ hybernate(int)
