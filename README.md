@@ -1,5 +1,5 @@
 # AntObject
-A object oriented program designed to draw parallels between programming and the real world, specifically ants.
+A object oriented program designed to draw parallels between programming and the real world, specifically ants, and thier polymorphism vs programming polymorphism.
 
 # ON HOLD 
 as of 10/1/2018, this project is on hold.
